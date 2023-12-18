@@ -104,33 +104,44 @@ main {
     margin-bottom: 20px;
 }
 
-.profile-img {
-    width: 300px;
-    height: 200px;
-}
 
 .profile-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
 }
 
-/* Style for profile information */
-.profile {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
+.profile-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
 }
 
-.profile-info {
-    margin-left: 20px;
-    /* Adjust the spacing between image and text */
+.profile-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 .profile-info span {
     color: #01a29c;
-    font-weight: 600;
+}
+
+.profile-btn {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 22px;
+    background: #01a29c;
+    color: #fff;
+}
+
+/* Style for profile information */
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
 }
 
 /* Style for contact icons */
